@@ -3,8 +3,6 @@ import matplotlib.pyplot as plt
 import logging
 
 
-# Having problems getting the hidden layer to work, maybe due to dying ReLu?
-
 # Basic neural net implementation with softmax output
 class NeuralNet:
     def __init__(self,
